@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,23 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom camping-themed colors
+				forest: {
+					DEFAULT: '#2d3f2c',
+					light: '#3d5e3a',
+					dark: '#1f2b1e',
+				},
+				earth: {
+					DEFAULT: '#9b7653',
+					light: '#c09a74',
+					dark: '#654c34',
+				},
+				stone: {
+					DEFAULT: '#a8a9ad',
+					light: '#d3d3d6',
+					dark: '#6e6f73',
+				},
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
